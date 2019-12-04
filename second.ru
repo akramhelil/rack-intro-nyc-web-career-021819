@@ -7,6 +7,6 @@ class MyServer
   end 
   
   def pretty_response
-    (Time.now.to_i % 2)/zero? ? ['<h1>Hello this is from pretty response</h1>']
+    (Time.now.to_i % 2)/zero? ? ['<h1>Hello this is from pretty response</h1>'] : [" <strong>Hello this is the weak hello</strong>"]
   end
 end
