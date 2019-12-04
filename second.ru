@@ -11,4 +11,4 @@ class MyServer
   end
 end
 
-run MyServererver.new
+run MyServer.new
